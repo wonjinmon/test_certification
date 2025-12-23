@@ -1,4 +1,7 @@
-import re, math, os, sys
+import re
+import math
+import os
+import sys
 from typing import List, Dict, Optional, Tuple
 
 import numpy as np
