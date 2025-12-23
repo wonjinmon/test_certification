@@ -168,6 +168,7 @@ def apply_angle_patch(
             if "rotation" in ch or "Rotation" in ch:
                 src_val = start_frame[base + k]
                 if use_noise:
+                    np.random.seed(42)
                     noise = float(np.random.normal(loc=0.0, scale=std))
                     end_frame[base + k] = src_val + noise
                 else:

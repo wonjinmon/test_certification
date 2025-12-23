@@ -2,3 +2,4 @@
 # pip install -r requirements.txt
 open3d>=0.15
 numpy>=1.21
+matplotlib>=3.10
